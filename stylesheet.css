@@ -19,7 +19,7 @@ h1 {
 }
 #language {
     height: 75px;
-    width: 200px;
+    width: 18%;
     background-color:darkturquoise;
     font-size: 14px;
     float: right;
@@ -37,11 +37,11 @@ h1 {
     float:left;
     height: 280px;
     padding-right: 20px;
-    margin-left: 50px;
+    margin-left: 3.5%;
 }
 #infoBoks {
     height: 70px;
-    width: 1500;
+    width: 92%;
     margin-top: 30px;
     float:left;
     margin-left: 55px;
@@ -54,6 +54,7 @@ h1 {
 }
 #info {
     height: 400px;
-    width: 1300px;
+    width: 98%;
     padding-top: 10px;
 }
+
