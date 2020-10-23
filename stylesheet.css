@@ -7,7 +7,7 @@ body {
 
 #overskrift {
     height: 100px;
-    width: 1420px;
+    width: 100%;
     background-color:cadetblue;
     border: 1px solid;
     border-color: black;
