@@ -3,7 +3,7 @@ body {
     border: 1px solid;
     height: 1000px;
     font-family: sans-serif;
-            }
+}
 
 #overskrift {
     height: 100px;
@@ -15,10 +15,10 @@ body {
 h1 {
     font-size: 70px;
     text-align: center;
-    margin-top: 10px; 
+    margin-top: 1%; 
 }
 #language {
-    height: 75px;
+    height: 75%;
     width: 18%;
     background-color:darkturquoise;
     font-size: 14px;
@@ -29,32 +29,64 @@ h1 {
     text-align: center;
 } 
 #hundeBoks {
-    height: 300px;
-    width: 1425px;
+    display: flex;
+    justify-content: space-between;
+    height: 20%;
+    width: 98%;
     padding-top: 50px;
+    margin-left: 15px;
 }
 .hunder {
-    float:left;
-    height: 280px;
-    padding-right: 20px;
-    margin-left: 3.5%;
+    height: 140%;
+    padding-right: 1%;    
 }
 #infoBoks {
     height: 70px;
     width: 92%;
-    margin-top: 30px;
-    float:left;
-    margin-left: 55px;
+    margin-top: 110px;
+    margin-left: 4%;
     text-align: center;
     background-color: cadetblue;
-    padding-top: 0px;
     font-size: 20px;
     border: 1px solid;
     border-color: black;
+    display: flex;
+    justify-content: center;
 }
 #info {
-    height: 400px;
-    width: 98%;
+    height: 40%;
+    width: 91%;
+    margin-top: 10px;
     padding-top: 10px;
+    margin-left: 4%;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    background-color: aliceblue;
+    font-size: 18px;
+    border: 1px solid;
+    border-color: black;
+    display: flex;
+    justify-content: center;
 }
-
+    
+@media only screen and (max-width: 1220px) {
+    body{
+        border: 1px solid;
+        height: 1200px;
+    }
+    #hundeBoks {
+        flex-direction: column;
+        height:100%;
+    }
+    .hunder{
+        height: 30%; 
+        object-fit:cover;
+        float: none; 
+        margin-left: 1%;
+    }
+    #infoboks {
+        display:inherit;
+        
+    }
+}
